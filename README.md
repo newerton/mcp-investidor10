@@ -8,7 +8,7 @@ This project is part of the Model Context Protocol (MCP) ecosystem and provides 
 
 <table style="border-collapse: collapse; width: 100%; table-layout: fixed;">
 <tr>
-<td style="width: 40%; padding: 15px; vertical-align: middle; border: none;">An integration that enables MCP tools to query stock market data, such as stock prices, indicators, and payment dates, using the Investidor10 API.</td>
+<td style="width: 40%; padding: 15px; vertical-align: middle; border: none;">An integration that enables MCP tools to query stock market data, such as stock prices, and indicators, using the Investidor10 API.</td>
 <td style="width: 60%; padding: 0; vertical-align: middle; border: none; min-width: 300px; text-align: center;"><a href="https://glama.ai/mcp/servers/@newerton/mcp-investidor10">
   <img style="max-width: 100%; height: auto; min-width: 300px;" src="https://glama.ai/mcp/servers/@newerton/mcp-investidor10/badge" alt="Investidor10 - MCP Server" />
 </a></td>
