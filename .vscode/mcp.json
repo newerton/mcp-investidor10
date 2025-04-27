@@ -1,0 +1,11 @@
+{
+  "servers": {
+    "stocks": {
+      "type": "stdio",
+      "command": "node",
+      "args": [
+        "D:/www/newerton/mcp/mcp-investidor10/build/main.js"
+      ]
+    }
+  }
+}
