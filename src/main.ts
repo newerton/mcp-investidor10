@@ -6,9 +6,8 @@ import { Investidor10ApiService } from './infrastructure/services/Investidor10Ap
 import { Investidor10ToolsController } from './interface/controllers/Investidor10ToolsController.js';
 
 async function main() {
-  // Criação da instância do servidor MCP
   const server = new McpServer({
-    name: 'weather',
+    name: 'stocks',
     version: '1.0.0',
     capabilities: {
       resources: {},
@@ -16,14 +15,11 @@ async function main() {
     },
   });
 
-  // Inicializando serviços e controladores
   const apiService = new Investidor10ApiService();
   const service = new Investidor10Service(apiService);
 
-  // Controlador que registra as ferramentas
   new Investidor10ToolsController(server, service);
 
-  // Configurando e iniciando o servidor
   const transport = new StdioServerTransport();
   await server.connect(transport);
   console.error('Investidor10 MCP Server running on stdio');
