@@ -25,7 +25,7 @@
 		"lint": "biome check --write --unsafe"
 	},
 	"dependencies": {
-		"@modelcontextprotocol/sdk": "^1.30.0",
+		"@modelcontextprotocol/sdk": "^1.31.0",
 		"cheerio": "^1.2.0",
 		"dayjs": "^1.11.23",
 		"voca": "^1.4.1",
