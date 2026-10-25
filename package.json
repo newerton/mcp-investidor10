@@ -43,7 +43,7 @@
 	"overrides": {
 		"@hono/node-server": "^2.0.12",
 		"diff": "^9.0.0",
-		"fast-uri": "^4.2.1",
+		"fast-uri": "^4.2.3",
 		"hono": "^4.13.13"
 	}
 }
